@@ -1,0 +1,11 @@
+{
+  "name": "fc4-rest-learning",
+  "version": "1.0.0",
+  "description": "project to learn api rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Soares",
+  "license": "MIT"
+}
