@@ -8,6 +8,10 @@
     "build": "tsup src/index.ts --dts --format esm,cjs",
     "typecheck": "tsc --noEmit",
     "start": "node dist/index.js",
+    "lint:prettier:check": "prettier --check .",
+    "lint:prettier:fix": "prettier --write .",
+    "lint:eslint:check": "eslint src --ext .ts",
+    "lint:eslint:fix": "eslint src --ext .ts --fix",
     "prepare": "husky",
     "commit": "cz"
   },
