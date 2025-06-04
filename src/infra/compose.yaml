@@ -1,4 +1,17 @@
 services:
+  rest-api:
+    container_name: rest-api
+    build:
+      context: ../..
+      dockerfile: src/infra/Dockerfile
+    volumes:
+      - ../..:/home/node/app
+    env_file:
+      - ../../.env
+    ports:
+      - "3000:3000"
+    depends_on:
+      - database
   database:
     container_name: rest-postgres
     image: postgres:16.0-alpine3.18
