@@ -33,12 +33,14 @@
     "globals": "^16.2.0",
     "husky": "^9.1.7",
     "prettier": "^3.5.3",
+    "prisma": "^6.9.0",
     "tsup": "^8.5.0",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.33.1"
   },
   "dependencies": {
+    "@prisma/client": "^6.9.0",
     "express": "^5.1.0"
   },
   "config": {

@@ -3,6 +3,6 @@ services:
     container_name: rest-postgres
     image: postgres:16.0-alpine3.18
     env_file:
-      - ../../.env.development
+      - ../../.env
     ports:
       - "5431:5432"
