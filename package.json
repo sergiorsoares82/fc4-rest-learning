@@ -4,7 +4,7 @@
   "description": "project to learn api rest",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
+    "dev": "npm run services:up && tsx watch src/index.ts",
     "build": "tsup src/index.ts --dts --format esm,cjs",
     "typecheck": "tsc --noEmit",
     "start": "node dist/index.js",
